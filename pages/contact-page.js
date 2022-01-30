@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Layout from "../components/Layout";
 import Image from "next/image";
@@ -10,11 +11,17 @@ export default function Contact() {
           <p className="font-bold">Contact Info</p>
         </div>
         <div className="flex justify-center mt-4">
-          <Image className="rounded-full" src="/avatar1.png" width={60} height={60} alt="Avatar" />
+          <img
+            className="rounded-full"
+            src="https://s4.aconvert.com/convert/p3r68-cdx67/a1iw5-8exe5.svg"
+            width={60}
+            height={60}
+            alt="Avatar"
+          />
         </div>
         <div className="mt-4">
-          <p className="font-bold">Address</p>
-          <p className="text-xs mt-2 text-gray-600">city A</p>
+          <p className="font-bold">Name</p>
+          <p className="text-xs mt-2 text-gray-600">狂牛　シンジ</p>
           <p className="font-bold mt-3">E-mail</p>
           <p className="text-xs mt-2 text-gray-600">abc@gmail.com</p>
           <p className="font-bold mt-3">Phone</p>
