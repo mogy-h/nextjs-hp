@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="flex justify-center mt-4">
           <img
             className="rounded-full"
-            src="https://s4.aconvert.com/convert/p3r68-cdx67/a1iw5-8exe5.svg"
+            src="/ogyu.png"
             width={60}
             height={60}
             alt="Avatar"
